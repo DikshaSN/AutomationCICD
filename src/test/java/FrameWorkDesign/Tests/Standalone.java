@@ -39,6 +39,7 @@ public class Standalone {
 	@Test
 	public void SubmitOrder() throws InterruptedException {
 
+		// test updates
 		ExtentTest test = report.createTest("Submit Order");
 		String productName = "ZARA COAT 3";
 		WebDriver driver = new ChromeDriver();
